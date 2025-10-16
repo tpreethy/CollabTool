@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabToolApi", "CollabToolApi\CollabToolApi.csproj", "{795499EF-44B4-46B1-8B81-3FE876823802}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabTool.Application", "CollabTool.Application\CollabTool.Application.csproj", "{8D520AB9-927E-40BE-B106-D9E296F2839F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabTool.Core", "CollabTool.Core\CollabTool.Core.csproj", "{01007A96-AD8E-49E6-95A7-19724F6B456A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollabTool.Infrastructure", "CollabTool.Infrastructure\CollabTool.Infrastructure.csproj", "{0552F3B4-1B20-40BA-A1FB-029524BFAEAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{795499EF-44B4-46B1-8B81-3FE876823802}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{795499EF-44B4-46B1-8B81-3FE876823802}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{795499EF-44B4-46B1-8B81-3FE876823802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D520AB9-927E-40BE-B106-D9E296F2839F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D520AB9-927E-40BE-B106-D9E296F2839F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D520AB9-927E-40BE-B106-D9E296F2839F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D520AB9-927E-40BE-B106-D9E296F2839F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01007A96-AD8E-49E6-95A7-19724F6B456A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01007A96-AD8E-49E6-95A7-19724F6B456A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01007A96-AD8E-49E6-95A7-19724F6B456A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01007A96-AD8E-49E6-95A7-19724F6B456A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0552F3B4-1B20-40BA-A1FB-029524BFAEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0552F3B4-1B20-40BA-A1FB-029524BFAEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0552F3B4-1B20-40BA-A1FB-029524BFAEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0552F3B4-1B20-40BA-A1FB-029524BFAEAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
